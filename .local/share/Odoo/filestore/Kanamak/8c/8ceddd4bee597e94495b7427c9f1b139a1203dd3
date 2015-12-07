@@ -1,0 +1,132 @@
+Account Type	Code	Company	Allow Reconciliation	Internal Type	Parent	Name	Active	Internal Notes
+Root/View	01-0	Kanamak Hydraulics, Inc	False	View		Kanamak Hydraulics, Inc	True	
+Root/View	01-1	Kanamak Hydraulics, Inc	False	View	Kanamak Hydraulics, Inc	Balance Sheet	True	
+Root/View	01-100-300	Kanamak Hydraulics, Inc	False	View	Balance Sheet	Assets	True	
+Asset View	01-100	Kanamak Hydraulics, Inc	False	View	Assets	Current Assets	True	
+Cash	01-103 	Kanamak Hydraulics, Inc	False	Regular	Current Assets	Petty Cash	True	
+Cash	01-101	Kanamak Hydraulics, Inc	False	Regular	Current Assets	Cash on Hand	True	
+Cash	01-102	Kanamak Hydraulics, Inc	False	Regular	Current Assets	Cash in Bank	True	
+Cash	01-104	Kanamak Hydraulics, Inc	False	Regular	Current Assets	Over/Short	True	
+Asset	01-105	Kanamak Hydraulics, Inc	False	Regular	Current Assets	Cash in Drawer	True	
+Cash	01-106	Kanamak Hydraulics, Inc	True	Regular	Current Assets	GCSB Savings Account	True	
+Cash	01-108	Kanamak Hydraulics, Inc	False	Regular	Current Assets	WSB Savings Account	True	
+Asset	01-110	Kanamak Hydraulics, Inc	False	Regular	Current Assets	Inventory	True	
+Asset	01-121	Kanamak Hydraulics, Inc	False	Regular	Current Assets	Mad Dog Metal	True	Startup loan to Mad Dog Metal. 
+Asset	01-130	Kanamak Hydraulics, Inc	False	Regular	Current Assets	Payroll Advances	True	
+Asset	01-132	Kanamak Hydraulics, Inc	False	Regular	Current Assets	Employee Tool Allowance	True	
+Account Receivable	01-120	Kanamak Hydraulics, Inc	True	Receivable	Assets	Accounts Receivable	True	
+Asset View	01-300	Kanamak Hydraulics, Inc	False	View	Assets	Fixed Assets	True	
+Fixed Asset	01-305	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Building Improvements	True	
+Fixed Asset	01-310	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	PTM Program	True	
+Fixed Asset	01-315	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Mad Dog Equipment	True	
+Fixed Asset	01-320	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Office Furniture & Fixtures	True	
+Fixed Asset	01-325	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Patent	True	
+Fixed Asset	01-330	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Shop Equipment	True	
+Fixed Asset	01-340	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Machine Shop Equipment	True	
+Fixed Asset	01-350	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Vehicles & Transportation	True	
+Fixed Asset	01-370	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Organizational Costs	True	
+Fixed Asset	01-389	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Accumulated Depreciation	True	
+Fixed Asset	01-390	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Capital Credits - Wheatland	True	
+Fixed Asset	01-399	Kanamak Hydraulics, Inc	False	Regular	Fixed Assets	Accumulated Depreciation	True	
+Root/View	01-400	Kanamak Hydraulics, Inc	False	View	Balance Sheet	Liabilities	True	
+Account Payable	01-401	Kanamak Hydraulics, Inc	True	Payable	Liabilities	Accounts Payable	True	
+Current Liability	01-405	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Sales Tax Liability	True	
+Liability	01-406	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Federal Withholding	True	
+Liability	01-407	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Kansas Withholding Liability	True	
+Liability	01-408	Kanamak Hydraulics, Inc	False	Regular	Liabilities	FICA Liability	True	
+Liability	01-409	Kanamak Hydraulics, Inc	False	Regular	Liabilities	SUTA Liabilities	True	
+Liability	01-410	Kanamak Hydraulics, Inc	False	Regular	Liabilities	FUTA Liabilities	True	
+Liability	01-412	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Cafeteria Accounts	True	
+Liability	01-413	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Health Insurance	True	
+Liability	01-414	Kanamak Hydraulics, Inc	False	Regular	Liabilities	California UI	True	
+Liability	01-415	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Garnishments	True	
+Liability	01-416	Kanamak Hydraulics, Inc	False	Regular	Liabilities	California SDI	True	
+Liability	01-417	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Retirement / Simple IRA	True	
+Liability	01-418	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Employee Savings	True	
+Liability	01-419	Kanamak Hydraulics, Inc	False	Regular	Liabilities	HSA	True	
+Liability	01-420	Kanamak Hydraulics, Inc	False	Regular	Liabilities	California ETT	True	
+Liability	01-440	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Accrued Wages	True	
+Liability	01-441	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Accrued Property Tax	True	
+Liability	01-442	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Accrued Interest	True	
+Liability	01-443	Kanamak Hydraulics, Inc	False	Regular	Liabilities	Accrued Federal Tax	True	
+Root/View	01-500	Kanamak Hydraulics, Inc	False	View	Balance Sheet	Equity	True	
+Equity	01-501	Kanamak Hydraulics, Inc	False	Regular	Equity	Common Stock 100,000 Par.10	True	
+Equity	01-502	Kanamak Hydraulics, Inc	False	Regular	Equity	Distributions	True	
+Equity	01-503	Kanamak Hydraulics, Inc	False	Regular	Equity	Distributions Medical	True	
+Equity	01-505	Kanamak Hydraulics, Inc	False	Regular	Equity	Owner's Equity	True	
+Equity	01-597	Kanamak Hydraulics, Inc	False	Regular	Equity	Capital Contributions	True	
+Equity	01-598	Kanamak Hydraulics, Inc	False	Regular	Equity	Retained Earnings Account	True	
+Equity	01-599	Kanamak Hydraulics, Inc	False	Regular	Equity	Net Profit or Loss	True	
+Root/View	01-2	Kanamak Hydraulics, Inc	False	View	Kanamak Hydraulics, Inc	Profit & Loss	True	
+Root/View	01-600	Kanamak Hydraulics, Inc	False	View	Profit & Loss	Revenue	True	
+Income	01-601	Kanamak Hydraulics, Inc	False	Regular	Revenue	Sales of Parts	True	
+Income	01-602	Kanamak Hydraulics, Inc	False	Regular	Revenue	Sales of Labor	True	
+Income	01-604	Kanamak Hydraulics, Inc	False	Regular	Revenue	Rental Income	True	
+Income	01-606	Kanamak Hydraulics, Inc	False	Regular	Revenue	Miscellaneous Sales	True	
+Income	01-608	Kanamak Hydraulics, Inc	False	Regular	Revenue	Interest Income	True	
+Income	01-609	Kanamak Hydraulics, Inc	False	Regular	Revenue	Freight Sales	True	
+Income	01-610	Kanamak Hydraulics, Inc	False	Regular	Revenue	Bad Debt Recovery	True	
+Income	01-910	Kanamak Hydraulics, Inc	False	Regular	Revenue	Gain or Loss From Sale of Asset	True	
+Root/View	01-650	Kanamak Hydraulics, Inc	False	View	Profit & Loss	Cost of Goods Sold	True	
+Cost of Goods Sold	01-651	Kanamak Hydraulics, Inc	False	Regular	Cost of Goods Sold	Merchandise Purchase	True	
+Cost of Goods Sold	01-654	Kanamak Hydraulics, Inc	False	Regular	Cost of Goods Sold	Rental Costs	True	
+Cost of Goods Sold	01-656	Kanamak Hydraulics, Inc	False	Regular	Cost of Goods Sold	Discounts Taken	True	
+Cost of Goods Sold	01-659	Kanamak Hydraulics, Inc	False	Regular	Cost of Goods Sold	Freight Charges	True	
+Cost of Goods Sold	01-660	Kanamak Hydraulics, Inc	False	Regular	Cost of Goods Sold	Direct Labor	True	
+Cost of Goods Sold	01-665	Kanamak Hydraulics, Inc	False	Regular	Cost of Goods Sold	Sublet Costs	True	
+Cost of Goods Sold	01-699	Kanamak Hydraulics, Inc	False	Regular	Cost of Goods Sold	Warranties	True	
+Root/View	01-700	Kanamak Hydraulics, Inc	False	View	Profit & Loss	Expenses	True	
+Expense	01-701	Kanamak Hydraulics, Inc	False	Regular	Expenses	Payroll Expense	True	
+Expense	01-702	Kanamak Hydraulics, Inc	False	Regular	Expenses	Officer's Salary	True	
+Expense	01-703	Kanamak Hydraulics, Inc	False	Regular	Expenses	Employer's FICA Expense	True	
+Expense	01-704	Kanamak Hydraulics, Inc	False	Regular	Expenses	Employee Benefits	True	
+Expense	01-705	Kanamak Hydraulics, Inc	False	Regular	Expenses	FUTA & SUTA	True	
+Expense	01-712	Kanamak Hydraulics, Inc	False	Regular	Expenses	Retirement Expense	True	
+Expense	01-740	Kanamak Hydraulics, Inc	False	Regular	Expenses	Advertising & Promotion	True	
+Expense	01-745	Kanamak Hydraulics, Inc	False	Regular	Expenses	Accounting Expense	True	
+Expense	01-750	Kanamak Hydraulics, Inc	False	Regular	Expenses	Bad Debt Expense	True	
+Expense	01-755	Kanamak Hydraulics, Inc	False	Regular	Expenses	Bank Card Fees	True	
+Expense	01-756	Kanamak Hydraulics, Inc	False	Regular	Expenses	Bank Charges	True	
+Expense	01-760	Kanamak Hydraulics, Inc	False	Regular	Expenses	Contributions	True	
+Expense	01-768	Kanamak Hydraulics, Inc	False	Regular	Expenses	Dealership Fees	True	
+Expense	01-770	Kanamak Hydraulics, Inc	False	Regular	Expenses	Dues & Subscriptions	True	
+Expense	01-780	Kanamak Hydraulics, Inc	False	Regular	Expenses	Education & Training	True	
+Expense	01-785	Kanamak Hydraulics, Inc	False	Regular	Expenses	Entertainment	True	
+Expense	01-787	Kanamak Hydraulics, Inc	False	Regular	Expenses	Equipment Lease	True	
+Expense	01-790	Kanamak Hydraulics, Inc	False	Regular	Expenses	Insurance Expense - Life & Disability	True	
+Expense	01-793	Kanamak Hydraulics, Inc	False	Regular	Expenses	Business Insurance	True	
+Expense	01-794	Kanamak Hydraulics, Inc	False	Regular	Expenses	Medical Insurance	True	
+Expense	01-795	Kanamak Hydraulics, Inc	False	Regular	Expenses	Workers Comp Insurance	True	
+Expense	01-797	Kanamak Hydraulics, Inc	False	Regular	Expenses	Interest Expense	True	
+Expense	01-798	Kanamak Hydraulics, Inc	False	Regular	Expenses	Finance Charges	True	
+Expense	01-815	Kanamak Hydraulics, Inc	False	Regular	Expenses	Janitorial	True	
+Expense	01-817	Kanamak Hydraulics, Inc	False	Regular	Expenses	Meals	True	
+Expense	01-820	Kanamak Hydraulics, Inc	False	Regular	Expenses	Misc. Expenses	True	
+Expense	01-824	Kanamak Hydraulics, Inc	False	Regular	Expenses	Employee Welfare	True	
+Expense	01-825	Kanamak Hydraulics, Inc	False	Regular	Expenses	Office Supplies	True	
+Expense	01-826	Kanamak Hydraulics, Inc	False	Regular	Expenses	Computer Maintenance	True	
+Expense	01-830	Kanamak Hydraulics, Inc	False	Regular	Expenses	Professional Services	True	
+Expense	01-832	Kanamak Hydraulics, Inc	False	Regular	Expenses	Postage and Freight 	True	
+Expense	01-844	Kanamak Hydraulics, Inc	False	Regular	Expenses	Building Repair & Maintenance	True	
+Expense	01-845	Kanamak Hydraulics, Inc	False	Regular	Expenses	Equipment Repair & Parts	True	
+Expense	01-846	Kanamak Hydraulics, Inc	False	Regular	Expenses	Tools for MFG Machines	True	
+Expense	01-847	Kanamak Hydraulics, Inc	False	Regular	Expenses	Rent Expense	True	
+Expense	01-856	Kanamak Hydraulics, Inc	False	Regular	Expenses	Quality & Safety	True	
+Expense	01-857	Kanamak Hydraulics, Inc	False	Regular	Expenses	Research & Development	True	
+Expense	01-858	Kanamak Hydraulics, Inc	False	Regular	Expenses	Shop Supplies	True	
+Expense	01-859	Kanamak Hydraulics, Inc	False	Regular	Expenses	Small Tools	True	
+Expense	01-860	Kanamak Hydraulics, Inc	False	Regular	Expenses	Tax & License	True	
+Expense	01-861	Kanamak Hydraulics, Inc	False	Regular	Expenses	Property Tax 	True	
+Expense	01-862	Kanamak Hydraulics, Inc	False	Regular	Expenses	Federal Income Tax	True	
+Expense	01-863	Kanamak Hydraulics, Inc	False	Regular	Expenses	Corporate Business Tax	True	
+Expense	01-868	Kanamak Hydraulics, Inc	False	Regular	Expenses	Telephone Expense	True	
+Expense	01-869	Kanamak Hydraulics, Inc	False	Regular	Expenses	Travel Expense	True	
+Expense	01-875	Kanamak Hydraulics, Inc	False	Regular	Expenses	Utilities	True	
+Expense	01-878	Kanamak Hydraulics, Inc	False	Regular	Expenses	Uniforms	True	
+Expense	01-880	Kanamak Hydraulics, Inc	False	Regular	Expenses	Vehicle Expense - Fuel	True	
+Expense	01-881	Kanamak Hydraulics, Inc	False	Regular	Expenses	Vehicle Repairs Maintenance	True	
+Expense	01-882	Kanamak Hydraulics, Inc	False	Regular	Expenses	KDOT Regulations	True	
+Expense	01-885	Kanamak Hydraulics, Inc	False	Regular	Expenses	Waste Collection	True	
+Expense	01-897	Kanamak Hydraulics, Inc	False	Regular	Expenses	Penalties	True	
+Expense	01-898	Kanamak Hydraulics, Inc	False	Regular	Expenses	Warranties	True	
+Expense	01-899	Kanamak Hydraulics, Inc	False	Regular	Expenses	Depreciation Expense	True	

@@ -1,0 +1,30 @@
+[submodule "odoo"]
+	path = odoo
+	url = https://github.com/odoo/odoo.git
+	branch = 9.0
+
+[submodule "mro"]
+	path = addons-extra/mro	
+	url = https://github.com/codup/odoo-eam.git
+	branch = 8.0
+
+[submodule "openerp-usa"]  
+	path  = addons-extra/openerp-usa
+	url = https://bitbucket.org/npgteam/openerp-usa.git
+	branch = 8.0
+
+[submodule "project"]
+	path = addons-extra/project
+	url = https://github.com/OCA/project.git
+	branch = 8.0
+
+[submodule "server-tools']
+	path = addons-extra/server-tools
+	branch = 8.0
+	url = https://github.com/OCA/server-tools.git
+
+[submodule "web-gantt"]
+	path = addons-extra/web-gantt
+	branch = 8.0
+	url = https://github.com/stephane-/odoo_addons.git
+	
