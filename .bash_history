@@ -1,128 +1,3 @@
-ls
-cd ..
-cd ,,
-cd ..
-ls
-cd  kanamak
-ls
-cd  addons-extra/
-ls
-cd ..
-ls
-cd addons-links/
-;s
-ls
-cd ..
-exit
-git pull
-exit
-git clone https://github.com/slevenhagen/kanamak_addons.git kanamak_addons_repo
-ls
-ln -s -t /opt/odoo/kanamak/kanamak_addons_repo/ opt/odoo/kanamak/addons-extra
-ln -s -t /opt/odoo/kanamak/kanamak_addons_repo/ opt/odoo/kanamak/addons-links
-ls
-cd kanamak_addons_repo/
-ls
-cd addons-extra 
-ls
-cd  addons-extra 
-ls
-ls -la
-exit
-ls
-ln -s -t /opt/odoo/kanamak/kanamak_addons_repo/ /opt/odoo/kanamak/addons-links
-ln -s -t -f /opt/odoo/kanamak/kanamak_addons_repo/ /opt/odoo/kanamak/addons-links
-ln -s -t  /opt/odoo/kanamak/kanamak_addons_repo/ /opt/odoo/kanamak/addons-links
-man ln
-ln -sf -t  /opt/odoo/kanamak/kanamak_addons_repo/ /opt/odoo/kanamak/addons-links
-ln -sf -t /opt/odoo/kanamak/kanamak_addons_repo/ /opt/odoo/kanamak/addons-extra
-pwd
-cd kanamak_addons_repo/
-ls
-cd addons-extra
-ls
-cd ..
-cd ..
-cd kanamak_addons_repo/
-git add addons-extra
-git status
-git add addons-extra/*
-cd ..
-ls 
-rm -R kanamak_addons_repo/
-ls
-cd odoo-kanamak
-ls
-du -h
-ls
-cd ..
-du -h
-man du 
-man du 
-du -h -d 1
-cd kanamak
-du -h -d 1
-pwd
-git init
-git submodule add odoo
-git submodule add ./odoo
-ls -ls
-ls -la
-nano .gitmodules 
-nano .gitmodules 
-exit
-cd ~
-ls
-cd  addons-extra/openerp-usa/
-git pull
-git branch
-git pull
-ln -s -t /opt/odoo/kanamak/addons-links/ /opt/odoo/kanamak/addons-extra/openerp-usa/project_task_resource_planning/
-exit
-cd ~
-ks
-ls
-nano .gitmodules 
-git remote add origin git@bitbucket.org:npgteam/kanamak.git
-git status
-nano .gitignore
-ls
-cd addons-extra/
-ls
-cd openerp-usa/
-ls
-ls
-cd ~
-ls
-git add addons-extra/
-git add addons-links/
-git add cmd-odoo-kanamak.conf 
-git add odoo-kanamak
-git add odoo-kanamak.conf 
-git status
-git commit -a -m "Initial Commit add files"
-git config --global user.email kanamak@novapointgroup.com
-git config --global user.name Kanamak User
-git commit -a -m "Initial Commit add files"
-ls
-git add addons-links/*
-git status
-ls
-cd addons-extra/
-ks
-ks
-ls
-cd ..
-ls
-nano addons-extra/mro/.git/config 
-ls
-cd ~
-ls
-git pull
-git pull
-ls
-ls
-eit
 exit
 ls
 cd ~
@@ -496,5 +371,130 @@ cd ~
 ./odoo/odoo.py -c cmd-odoo-kanamak.conf 
 ./odoo/odoo.py -c cmd-odoo-kanamak.conf 
 sudo /etc/init.d/odoo-kanamak start
+ls
+exit
+nano .gitmodules 
+ls
+ls
+mv .gitmodules  .gitmodules.test
+cd ..
+cd kanamak
+ls
+git init
+git commit
+ls
+ls
+ ls -l
+ls -la
+cd  .gitignore 
+nano .gitignore 
+ls
+ls -la
+nano .gitconfig 
+cd  .git
+ls
+nano config 
+cd ..
+git add .
+git add -A 
+git commit add all modules
+git commit add -a -m "add all modules"
+git commit -a -m "add all modules"
+ls
+git push origin master
+ls
+cd .git
+ls
+nano config
+git submodule add .
+git submodule add *
+cd ..
+ls
+ls -la
+cp .gitmodules.test .gitmodules
+ls
+nano .gitmodules
+git status
+nano .gitmodules
+nano -c .gitmodules
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+git submodule init
+nano -c .gitmodules
+git submodule init
+git submodule init
+nano -c .gitmodules
+git submodule init
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+nano -c .gitmodules
+git submodule init
+git commit -a -m "updated git submodules file"
+git push
+nano -c .gitmodules
+git submodule init
+git submodule fetch
+git submodule update
+git push
+git status
+git add .gitmodules
+git addons-extra/odoo-8.0-dev/
+git add  addons-extra/odoo-8.0-dev/
+git add  addons-extra/odoo-hr_timesheet_timer/
+git add  addons-extra/odoomrp-wip/
+git add  addons-extra/web-gantt/
+git add  odoo
+git status
+git commit -a -m " update and add .gitmodules "
+git push
+ls 
+cd odoo
+ls
+cd ..
+ls
+ls
+;s
+ls
+nano
+ls -la
+cd .gitconfig 
+ls
+nano .gitconfig 
+cd .git
+ls
+nano config 
+cd ..
+nano -c .gitmodules
+git submodules init
+git submodule init
+git commit -a -m " update and add .gitmodules "
+git submodule update
+git push
+cd ..
 ls
 exit
