@@ -1,154 +1,3 @@
-exit
-ls
-cd ~
-ls
-exit
-ls
-cd ~
-ls
-./odoo/odoo.py -c cmd-odoo-kanamak.conf 
-ls
-cd addons-extra/openerp-usa/
-git pull
-exit
-cd ~
-cd addons-extra/openerp-usa/
-git log
-git pull
-git pull
-./openerp-server -c ../odoo-kanamak.conf -u all -d Kanamak
-nano ../odoo-kanamak.conf 
-./openerp-server -c ../odoo-kanamak.conf
-nano ../odoo-kanamak.conf 
-./openerp-server -c ../odoo-kanamak.conf
-/etc/init.d/odoo-kanamak restart
-sudo /etc/init.d/odoo-kanamak restart
-cd ..
-exit
-cd ~
-ld
-ld
-ls
-cd  addons-extra/
-ls
-cd  openerp-usa/
-git pull
-git log
-ls
-cd ..
-ls
-cd mro
-ls
-cd ..
-cd ..
-cd  addons-links/
-ls
-ln -s -t /opt/odoo/kanamak/addons-links/
-ln -s -t /opt/odoo/kanamak/addons-links/ /opt/odoo/kanamak/addons-extra/mro/*
-/var/log/odoo/kanamak/
-ls
-cd /var/log/odoo/kanamak/
-ls
-psql -d kanamak
-psql
-psql -d postgres
-psql -d Kanamak
-cd ~
-ls
-cd addons-extra
-ls
-cd mro
-ls
-git log
-git branch
-git pull
-git checkout 9.0
-ls
-cd  mro
-ls
-cd  wizard/
-ls
-nano converty
-nano convert_order.py 
-ls
-nano __init__.py
-exit
-ls
-cd ~
-cd addons-extra/mro/
-git checkout 8.0
-git stash
-git checkout 8.0
-cd ..
-ls
-cd ..
-ls
-./odoo/odoo.py -c cmd-odoo-kanamak.conf 
-ps aux | grep
-ls
-ls
-ls
-ps aux | grep python
-kill 32630
-./odoo/odoo.py -c cmd-odoo-kanamak.conf 
-./odoo/odoo.py -c cmd-odoo-kanamak.conf 
-exit
-cd 
-~
-cd ~
-ls
-cd  addons-extra/
-ls
-cd mro
-ls
-cd mro
-ls
-cd  wizard/
-ls
-nano convert_order.py
-ls
-nano __init__.py
-rm convert_order.py
-cd ..
-git reset --hard HEAD
-git pull
-ls
-cd ~
-ls
-cd  addons-extra/
-ls
-cd openerp-usa/
-git pull
-exit
-cd ~
-ls
-ls -la
-nano .gitmodules 
-git submodule add -h
-man git submodule
-git submodule add -h
-git submodule sync
-nano .gitmodules 
-nano .gitmodules 
-sudo service odoo-kanamak stop
-exit
-ls
-cd ~
-ls
-nano .git/config 
-nano .gitmodules 
-git submodule sync
-nano .gitmodules 
-git submodules init
-git submodule init
-nano -c .gitmodules 
-git submodule init
-nano -c .gitmodules 
-ls
-cd addons-extra/
-ls
-cd mro
-ls
 cat .git
 cat .git/config 
 ..
@@ -497,4 +346,155 @@ git submodule update
 git push
 cd ..
 ls
+exit
+cd ~
+ls
+ls
+cd  addons-extra
+ls
+cd openerp-usa/
+ls
+ls -la
+nano .git
+cd .git
+ls
+ls
+nano config 
+cd ..
+cd ..
+cd ..
+git branch
+git push origin master
+git log
+cd addons-extra/
+ls
+cd server-tools/
+ls
+ls -la
+nano .git
+cd .git
+ls
+nano config 
+git pull
+cd ..
+git pull
+cd..
+cd ..
+cd ..
+ls
+cd addons-extra/web-gantt/
+ls
+cd .git/
+ls
+nano config 
+cd ..
+ls
+cd ..
+ls 
+nano account-closing/
+nano account-closing/.git/config 
+cd ..
+cd addons-extra/
+nano account-financial-tools/.git/config 
+cd  ./addons-extra/c2c-rd-addons/
+cd c2c-rd-addons/
+nano .git/config 
+cd ..
+cd addons-extra/hr-timesheet
+nano .git/config 
+cd ..
+addons-extra/hr-timesheet
+sd addons-extra/hr-timesheet
+cd addons-extra/hr-timesheet
+nano .git/config 
+cd ~
+cd addons-extra/ingadhoc
+nano .git/config 
+cd ~
+cd addons-extra/margin-analysis
+nano .git/config 
+cd ~
+cd addons-extra/npg-mrp
+nano .git/config 
+cd ~
+cd addons-extra/oca-manufacture
+nano .git/config 
+cd ~
+cd addons-extra/odoo-8.0-dev
+nano .git/config 
+cd ~
+cd addons-extra/odoo-hr_timesheet_timer
+nano .git/config 
+cd ~
+cd addons-extra/odoomrp-wip
+ls
+nano .git/config 
+cd ~
+cd addons-extra/server-tools
+ls
+nano .git/config 
+cd ..
+cd ..
+nano .git/config 
+ls
+git commit -a -m "[Fix] correct Submodule URL path in .git/config"
+git push
+exit
+psql -d Kanamak
+cd ~
+nano  -c addons-extra/openerp-usa/npg_import/models/import_data.py
+nano  -c addons-extra/openerp-usa/npg_import/models/import_data.py
+sudo nano  -c addons-extra/openerp-usa/npg_import/models/import_data.py
+sudo service odoo-kanamak stop
+ps aux | grep python
+sudo service odoo-kanamak start
+df -h
+ls
+cd addons-links/
+cd ../addons-extra/
+cd openerp-usa/
+sudo git pull origin 8.0
+sudo git pull origin 8.0
+ls
+sudo git branch
+sudo git checkout 8.0
+sudo git reset --hard HEAD
+sudo git checkout 8.0
+sudo git pull origin 8.0
+cd ../../addons-links/
+sudo ln -s ../addons-extra/openerp-usa/service_repair_management/ ../addons-links/
+sudo /etc/init.d/odoo-kanamak restart
+sudo ln -s ../addons-extra/openerp-usa/base_external_dbsource/ ../addons-links/
+sudo /etc/init.d/odoo-kanamak restart
+cd ..
+cd odoo/
+ls
+cd addons/
+ls
+cd fleet/
+ls
+sudo nano fleet.py
+sudo /etc/init.d/odoo-kanamak restart
+ls
+cd ..
+sudo nano /etc/init.d/odoo-kanamak 
+sudo nano ../../
+cd ../../
+ls
+sudo nano odoo-kanamak
+sudo nano odoo-kanamak.conf 
+ls
+cd ~
+ls
+git status
+ls
+nano .gitignore 
+git status
+git add .gitignore 
+git addons-links/base_external_dbsource
+git add addons-links/base_external_dbsource
+git add addons-links/service_repair_management
+git status
+git add .gitignore 
+nano .gitignore 
 exit
