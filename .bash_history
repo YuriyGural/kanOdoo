@@ -1,17 +1,3 @@
-cat .git
-cat .git/config 
-..
-cd ..
-ls -la
-exit
-cd~
-cd ~
-ls
-cd addons-extra/
-;s
-ls
-cd mro
-nano .git/config 
 cd ..
 cd project/
 nano .git/config 
@@ -497,4 +483,18 @@ git add addons-links/service_repair_management
 git status
 git add .gitignore 
 nano .gitignore 
+exit
+cd ~
+ks
+ls
+git status
+nano .gitignore 
+git status
+nano .gitignore 
+git add .gitignore 
+git status
+git commit -a -m " Add new Modules links"
+git push
+exit
+cp cmd-odoo-genemedics.conf /opt/odoo/bd-diesel/cmd-odoo.conf
 exit
