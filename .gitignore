@@ -3,5 +3,5 @@
 .pydevproject
 .local/share/Odoo/sessions/
 .psql_history
+.nano_history
 .bash_history
-

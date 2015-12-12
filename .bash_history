@@ -1,22 +1,3 @@
-ls
-cd  .ssh
-ls
-nano authoized_key
-nano authorized_keys 
-exit
-ps -ef|grep openerp-server
-cd addons-extra/openerp-usa/
-git status
-sudo git pull origin 8.0
- git pull origin 8.0
-ls -l
-sudo /etc/init.d/odoo-kanamak restart
- /etc/init.d/odoo-kanamak restart
-git diff
-ps -ef|grep odoo.py
- /etc/init.d/odoo-kanamak restart
-sudo /etc/init.d/odoo-kanamak restart
-sudo /etc/init.d/odoo-kanamak restart
 sudo /etc/init.d/odoo-kanamak restart
 sudo /etc/init.d/odoo-kanamak restart
 sudo nano /etc/odoo-kanamak.conf 
@@ -498,3 +479,22 @@ psql -d Kanamak
 sudo /etc/init.d/odoo-kanamak start
 sudo /etc/init.d/odoo-kanamak start
 sudo /etc/init.d/odoo-kanamak start
+cd ~
+ls
+ls -la
+nano .gitmodules
+git submodule init
+git commit -a -m "Update .gitsubmodule correct branch for odoo repo"
+ls
+ls
+ls -la
+nano .gitignore 
+git add .local/share/Odoo/filestore/
+git status
+nano .gitignore 
+cd .python-eggs/
+ls
+exit
+cd ~
+git add .python-eggs/
+exit
