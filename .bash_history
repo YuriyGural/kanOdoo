@@ -1,39 +1,3 @@
-cd ..
-cd project/
-nano .git/config 
-nano .git/config 
-cd ../project/
-cd ../server-tools/
-nano .git/config 
-cd ../web-gantt/
-nano .git/config 
-nano .git/config 
-cd ../server-tools/
-nano .git/config 
-exit
-exit
-cd kanamak
-ls -la
-git submodule init
-nano -c .gitmodules 
-git submodule init
-nano -c .gitmodules 
-git submodule add -b 8.0 https://github.com/codup/odoo-eam.git addons-extra/mro
-ls
-cd  addons-extra/
-ls
-cd ingadhoc/
-ls
-git
-git status
-./openerp-server -c ../odoo-kanamak.conf -u all -d Kanamak
-cd ../addons-extra/
-ls
-cd openerp-usa/
-git pull origin 8.0
-exit
-cd~
-cd ~
 ls
 cd  .ssh
 ls
@@ -498,3 +462,39 @@ git push
 exit
 cp cmd-odoo-genemedics.conf /opt/odoo/bd-diesel/cmd-odoo.conf
 exit
+ls
+cd ~
+nano .gitignore 
+git rm .local/share/Odoo/sessions/*
+git rm .local/share/Odoo/sessions/
+git rm -r  .local/share/Odoo/sessions/
+git rm .psql_history 
+git commit -a -m "Remove odoo Sessions and psql_history"
+git push
+exit
+cd~
+cd ~
+cd addons-extra/openerp-usa/
+git pull
+exit
+ls
+cd kanamak
+ls
+cd addons-extra/
+cd openerp-usa/
+sudo git pull origin 8.0
+sudo git branch
+ls
+cd service_repair_management/
+ls
+cd views/
+ls
+sudo nano service_repair_view.xml 
+sudo git reset --hard HEAD
+sudo git pull origin 8.0
+sudo /etc/init.d/odoo-kanamak restart
+psql -d Kanamak
+./openerp-server -c ../odoo-kanamak.conf -u all -d Kanamak
+sudo /etc/init.d/odoo-kanamak start
+sudo /etc/init.d/odoo-kanamak start
+sudo /etc/init.d/odoo-kanamak start

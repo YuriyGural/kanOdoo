@@ -1,7 +1,7 @@
 [submodule "odoo"]
 	path = odoo
 	url = https://github.com/odoo/odoo.git
-	branch = 9.0
+	branch = 8.0
 
 [submodule "mro"]
 	path = addons-extra/mro	
