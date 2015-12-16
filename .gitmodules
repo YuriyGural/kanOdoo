@@ -80,3 +80,8 @@
 	path = addons-extra/server-tools
 	url = https://github.com/OCA/server-tools.git
 	branch = 8.0
+
+[submodule "purchase-workflow"]
+	path =  addons-extra/purchase-workfllow
+	url = https://github.com/OCA/purchase-workflow.git
+	branch = 8.0

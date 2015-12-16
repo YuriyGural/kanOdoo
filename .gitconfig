@@ -1,3 +1,5 @@
 [user]
 	email = kanamak@novapointgroup.com
 	name = Kanamak
+[push]
+	default = matching
