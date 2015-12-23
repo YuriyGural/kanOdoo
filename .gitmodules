@@ -10,7 +10,7 @@
 
 [submodule "openerp-usa"]  
 	path  = addons-extra/openerp-usa
-	url = https://bitbucket.org/npgteam/openerp-usa.git
+	url = git@bitbucket.org:npgteam/openerp-usa.git
 	branch = 8.0
 
 [submodule "project"]
@@ -74,7 +74,7 @@
 [submodule "odoomrp-wip"]
 	path = addons-extra/odoomrp-wip
 	url = https://github.com/odoomrp/odoomrp-wip.git
-	branch = 8.
+	branch = 8.0
 
 [submodule "server-tools"]
 	path = addons-extra/server-tools
@@ -82,7 +82,7 @@
 	branch = 8.0
 
 [submodule "purchase-workflow"]
-	path =  addons-extra/purchase-workfllow
+	path =  addons-extra/purchase-workflow
 	url = https://github.com/OCA/purchase-workflow.git
 	branch = 8.0
 [submodule "addons-vauxoo"]
@@ -90,3 +90,12 @@
         url = https://github.com/Vauxoo/addons-vauxoo.git
         branch = 8.0
 
+[submodule "sale-workflow"]
+	path =  addons-extra/sale-workflow
+	url = https://github.com/OCA/sale-workflow.git
+	branch = 8.0
+
+[submodule "stock-logistics-warehouse"]
+	path = addons-extra/stock-logistics-warehouse
+	url = https://github.com/OCA/stock-logistics-warehouse.git
+	branch = 8.0
