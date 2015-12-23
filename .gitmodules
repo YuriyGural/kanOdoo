@@ -53,7 +53,7 @@
 
 [submodule "npg-mrp"]
 	path = addons-extra/npg-mrp
-	url = https://bitbucket.org/npgteam/npg-mrp.git
+	url = git@bitbucket.org:npgteam/npg-mrp.git
 	branch =  master
 
 [submodule "oca-manufacture"]
