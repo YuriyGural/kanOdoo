@@ -85,3 +85,8 @@
 	path =  addons-extra/purchase-workfllow
 	url = https://github.com/OCA/purchase-workflow.git
 	branch = 8.0
+[submodule "addons-vauxoo"]
+        path = addons-extra/addons-vauxoo
+        url = https://github.com/Vauxoo/addons-vauxoo.git
+        branch = 8.0
+
