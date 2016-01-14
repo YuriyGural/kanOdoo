@@ -16,6 +16,7 @@
 [submodule "project"]
 	path = addons-extra/project
 	url = https://github.com/OCA/project.git
+	branch = 8.0
 
 [submodule "web-gantt"]
 	path = addons-extra/web-gantt

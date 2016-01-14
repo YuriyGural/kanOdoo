@@ -5,3 +5,4 @@
 .psql_history
 .nano_history
 .bash_history
+.local/share/Odoo/filestore/
