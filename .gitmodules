@@ -82,10 +82,6 @@
 	url = https://github.com/OCA/server-tools.git
 	branch = 8.0
 
-[submodule "purchase-workflow"]
-	path =  addons-extra/purchase-workflow
-	url = https://github.com/OCA/purchase-workflow.git
-	branch = 8.0
 [submodule "addons-vauxoo"]
         path = addons-extra/addons-vauxoo
         url = https://github.com/Vauxoo/addons-vauxoo.git
@@ -106,3 +102,7 @@
 	url = https://github.com/OCA/web.git
         branch = 8.0
 
+[submodule "addons-extra/purchase-workflow"]
+	path = addons-extra/purchase-workflow
+	url = https://github.com/OCA/purchase-workflow.git
+	branch = 8.0
