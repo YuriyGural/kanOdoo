@@ -5,3 +5,5 @@
 .psql_history
 .nano_history
 .bash_history
+ pythondepend.sh
+.local/share/Odoo/
