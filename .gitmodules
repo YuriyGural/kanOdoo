@@ -100,3 +100,7 @@
 	path = addons-extra/stock-logistics-warehouse
 	url = https://github.com/OCA/stock-logistics-warehouse.git
 	branch = 8.0
+[submodule "addons-extra/web"]
+	path = addons-extra/web
+	url = https://github.com/OCA/web.git
+        branch = 8.0
