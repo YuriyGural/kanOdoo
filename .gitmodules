@@ -104,3 +104,6 @@
 	path = addons-extra/web
 	url = https://github.com/OCA/web.git
         branch = 8.0
+[submodule "addons-extra/purchase-workflow"]
+	path = addons-extra/purchase-workflow
+	url = https://github.com/OCA/purchase-workflow.git
