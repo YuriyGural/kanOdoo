@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<openerp>
+<data>
+
+
+    <report id="account_check_writing.account_print_check_middle"
+            string="Maddog Payroll Check"
+            model="account.voucher"
+            name="account.print.check.payroll.maddog"
+            rml="kanamak_check_writing/report/check_print_payroll_maddog.rml"
+            multi="True"
+            auto="False"
+    		menu="True"
+    		/>
+    		
+    		
+    <report id="account_check_writing.account_print_check_top"
+            string="Kanamak Payable Check"
+            model="account.voucher"
+            name="account.print.check.top.kanamak"
+            rml="kanamak_check_writing/report/check_print_top.rml"
+            multi="True"
+            auto="False"
+    		menu="True"
+    		/>
+</data>
+</openerp>
+
+

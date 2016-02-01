@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<document filename="Check.pdf">
+	<template pageSize="(8.5in, 11.0in)" title="Test" author="NovaPoint Group"
+		allowSplitting="20">
+		<!-- Letter 612.0, 792.0 A4 595, 842 -->
+		<pageTemplate id="first">
+			<frame id="first" x1="0.0in" y1="0.0in" width="8.5in" height="11.0in" />
+		</pageTemplate>
+	</template>
+	<stylesheet>
+		<blockTableStyle id="Standard_Outline">
+			<blockAlignment value="LEFT" />
+			<blockValign value="TOP" />
+		</blockTableStyle>
+		<blockTableStyle id="Table1">
+			<blockAlignment value="LEFT" />
+			<blockValign value="TOP" />
+		</blockTableStyle>
+		<initialize>
+			<paraStyle name="all" alignment="justify" />
+		</initialize>
+		<paraStyle name="P1" rightIndent="-1.0" leftIndent="0.0"
+			fontName="Helvetica" />
+		<paraStyle name="P2" rightIndent="0.0" leftIndent="0.0"
+			fontName="Helvetica" />
+		<paraStyle name="P3" fontName="Helvetica" />
+		
+		<paraStyle name="8.0B-10L" fontName="Helvetica-Bold" fontSize="8.0"
+			leading="10" alignment="LEFT"/>
+		<paraStyle name="8.0B-10R" fontName="Helvetica-Bold" fontSize="8.0"
+			leading="10" alignment="RIGHT" />
+			
+		<paraStyle name="8.0B-11L" fontName="Helvetica-Bold" fontSize="8.0"
+			leading="11" alignment="LEFT" />
+		<paraStyle name="8.0B-11R" fontName="Helvetica-Bold" fontSize="8.0"
+			leading="11" alignment="RIGHT" />
+			
+		<paraStyle name="9.0B-11L" fontName="Helvetica-Bold" fontSize="9.0"
+			leading="11" alignment="LEFT" />
+		<paraStyle name="9.0B-11R" fontName="Helvetica-Bold" fontSize="9.0"
+			leading="11" alignment="RIGHT"/>
+		
+			
+
+		<paraStyle name="10.0B-11R" fontName="Helvetica-Bold" fontSize="10.0"
+			leading="11" alignment="RIGHT" />
+		<paraStyle name="10.0B-11L" fontName="Helvetica-Bold" fontSize="10.0"
+			leading="11" alignment="LEFT" />
+	
+		<paraStyle name="11.0B-11R" fontName="Helvetica-Bold" fontSize="11.0"
+			leading="12" alignment="RIGHT" />
+		<paraStyle name="11.0B-11L" fontName="Helvetica-Bold" fontSize="11.0"
+			leading="12" alignment="LEFT" />
+
+
+		<paraStyle name="8.0-10L" fontName="Helvetica" fontSize="8.0"
+			leading="10" />
+		<paraStyle name="8.0-10R" fontName="Helvetica" fontSize="8.0"
+			leading="10" alignment="RIGHT" />
+			
+
+		<paraStyle name="9.0-11L" fontName="Helvetica" fontSize="9.0"
+			leading="11" alignment="LEFT" />
+		<paraStyle name="9.0-11R" fontName="Helvetica" fontSize="9.0"
+			leading="11" alignment="RIGHT"/>
+
+		<paraStyle name="10.0-11R" fontName="Helvetica" fontSize="10.0"
+			leading="11" alignment="RIGHT" />
+		<paraStyle name="10.0-11L" fontName="Helvetica" fontSize="10.0"
+			leading="11" alignment="LEFT" />
+
+
+		<paraStyle name="Standard" fontName="Helvetica" />
+		<paraStyle name="Heading" fontName="Helvetica" fontSize="14.0"
+			leading="17" spaceBefore="12.0" spaceAfter="6.0" />
+		<paraStyle name="Text body" fontName="Helvetica"
+			spaceBefore="0.0" spaceAfter="6.0" />
+		<paraStyle name="List" fontName="Helvetica" spaceBefore="0.0"
+			spaceAfter="6.0" />
+		<paraStyle name="Caption" fontName="Helvetica" fontSize="12.0"
+			leading="15" spaceBefore="6.0" spaceAfter="6.0" />
+		<paraStyle name="Index" fontName="Helvetica" />
+		<paraStyle name="Table Contents" fontName="Helvetica" />
+		<paraStyle name="Table Heading" fontName="Helvetica"
+			alignment="CENTER" />
+		<images />
+	</stylesheet>
+	<story>
+		<para style="P1">[[repeatIn(objects,'voucher')]]</para>
+		
+		<blockTable colWidths="8.25in" rowHeights="10.75in" style="Table1">
+		
+		<tr>
+		<td>
+		<blockTable rowHeights="3.7in"  style="Table1">
+		<tr><td>
+		<spacer length="1.25in"/>
+		<blockTable colWidths="0.5in,4.0in,1.25in,1.75in" rowHeights="0.5in" style="Table1">
+			<tr>
+				<td>
+					<para style="9.0-11L"></para>
+				</td>				   
+			    <td>
+				  <para style="11.0B-11L">[[ format_amount_text(voucher.amount , '$') ]]</para>
+				</td>
+			   <td>
+                  <para style="9.0B-11R">[[ formatLang(voucher.date , date=True) or '' ]]</para>
+                </td>
+				<td>
+             	  <para style="9.0B-11R">[[ voucher.amount or "**" ]]</para>
+              </td>
+			</tr>
+		</blockTable>
+
+	
+		<blockTable colWidths="0.5in,5.0in" rowHeights="1.0in" style="Table1">
+			<tr>
+				<td>
+					<para style="10.0-11L"></para>
+				</td>
+				<td>
+				  <para style="10.0-11L">[[ voucher.partner_id.name ]]</para>
+				  <para style="10.0-11L">[[ display_address(voucher.partner_id) or removeParentNode('para') ]]</para>
+				</td>
+            </tr>
+        </blockTable>
+	   
+	   </td>
+	   </tr>
+	   </blockTable>
+	   	
+		<blockTable colWidths="1.75in,1.75in,1.75in,1.75in" style="Table1">
+			<tr>
+				<td> <para style="8.0B-10L">[[ voucher.partner_id.name ]]</para> </td>
+				<td> <para style="8.0B-10L">[[ formatLang(voucher.date , date=True) or '' ]]</para> </td>
+				<td> <para style="8.0B-10R">[[ voucher.amount or "**" ]]</para> </td>
+				<td> <para style="8.0B-10R">[[ voucher.partner_id.ref]]</para> </td>
+			</tr>
+		</blockTable>
+		<blockTable rowHeights="3.0in"  style="Table1">
+		<tr><td>
+		<blockTable colWidths="1.2in,1.2in,1.20in,1.25in,1.65in,1.15in" style="Table1">
+			<tr>
+				<td>
+					<para style="8.0-10L">INVOICE NO.</para>
+				</td>
+
+				<td>
+					<para style="8.0-10R">INV. DATE</para>
+				</td>
+				<td>
+					<para style="8.0-10R">PAY AMT</para>
+				</td>
+				<td>
+					<para style="8.0-10R">DISC TAKEN</para>
+				</td>
+				<td>
+					<para style="8.0-10R">VOUCHER NO.</para>
+				</td>
+				<td>
+					<para style="8.0-10R">NET AMT</para>
+				</td>
+			</tr>
+
+			<tr>
+				<td>								
+					<para style="8.0-10L">[[ repeatIn(get_invoices(voucher.invoice_ids),'invoice')]] [[ invoice['number']  ]]</para>
+				</td>
+				<td>
+					<para style="8.0-10R">[[ formatLang(invoice['date_invoice'], date=True) or ''  ]]</para>
+				</td>
+				<td>
+					<para style="8.0-10R">[[ formatLang(invoice['amount_total']) ]]</para>
+				</td>
+				<td>
+					<para style="8.0-10R">0.00</para>
+				</td>
+				<td>
+					<para style="8.0-10R">[[ voucher.number ]]</para>
+				</td>
+				<td>
+					<para style="8.0-10R">[[ formatLang(invoice['amount_total']) ]]</para>
+				</td>
+			</tr>
+		</blockTable>
+		</td></tr>
+		</blockTable>
+
+		<blockTable colWidths="1.2in,1.2in,1.20in,1.25in,1.65in,1.25in" style="Table1">
+			<tr>
+				<td>
+					<para style="9.0-11L"></para>
+				</td>
+				<td>
+					<para style="9.0-11L"> </para>
+				</td>
+				<td>
+					<para style="9.0-11R"> [[ formatLang(voucher.amount) ]]</para>
+				</td>
+				<td>
+					<para style="9.0-11R"> </para>
+				</td>
+				<td>
+					<para style="9.0-11L"> </para>
+				</td>
+				<td>
+					<para style="9.0-11R"> [[ formatLang(voucher.amount) ]]</para>
+				</td>
+				
+			</tr>
+		</blockTable>
+
+    </td>
+	</tr>
+	</blockTable>
+		
+	</story>
+
+	
+</document>
