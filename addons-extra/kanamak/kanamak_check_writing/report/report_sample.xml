@@ -15,7 +15,7 @@
 -->    		
     		
     <report id="account_check_writing.account_print_check_top"
-            string="Kanamak Payable Check"
+            string="Kanamak Top Print Check"
             model="account.voucher"
             name="account.print.check.top.kanamak"
             rml="kanamak_check_writing/report/check_print_top.rml"
