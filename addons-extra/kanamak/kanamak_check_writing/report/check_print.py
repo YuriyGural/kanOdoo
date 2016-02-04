@@ -155,13 +155,13 @@ class report_print_check_kanamak(report_sxw.rml_parse):
             result.append(res)
         return result
 
-report_sxw.report_sxw(
+'''report_sxw.report_sxw(
     'report.account.print.check.payroll.maddog',
     'account.voucher',
     'kanamak_check_writing/report/check_print_payroll_maddog.rml',
     parser=report_print_check_kanamak,header=False
 )
-
+'''
 report_sxw.report_sxw(
     'report.account.print.check.top.kanamak',
     'account.voucher',

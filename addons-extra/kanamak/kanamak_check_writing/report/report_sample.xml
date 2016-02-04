@@ -2,7 +2,7 @@
 <openerp>
 <data>
 
-
+<!--  
     <report id="account_check_writing.account_print_check_middle"
             string="Maddog Payroll Check"
             model="account.voucher"
@@ -12,7 +12,7 @@
             auto="False"
     		menu="True"
     		/>
-    		
+-->    		
     		
     <report id="account_check_writing.account_print_check_top"
             string="Kanamak Payable Check"
