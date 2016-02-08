@@ -12,10 +12,7 @@
 			<blockAlignment value="LEFT" />
 			<blockValign value="TOP" />
 		</blockTableStyle>
-		<blockTableStyle id="Table1">
-			<blockAlignment value="LEFT" />
-			<blockValign value="TOP" />
-		</blockTableStyle>
+
 		<initialize>
 			<paraStyle name="all" alignment="justify" />
 		</initialize>
@@ -84,6 +81,75 @@
 		<paraStyle name="Table Heading" fontName="Helvetica"
 			alignment="CENTER" />
 		<images />
+		
+	<blockTableStyle id="Table7">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="3,-1" stop="3,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="4,-1" stop="4,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="5,-1" stop="5,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table8">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="2,-1" stop="2,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="3,-1" stop="3,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="4,-1" stop="4,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="5,-1" stop="5,-1"/>
+    </blockTableStyle>
+      <blockTableStyle id="Table9">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="2,-1" stop="2,-1"/>
+    </blockTableStyle>
+    <blockTableStyle id="Table10">
+      <blockAlignment value="LEFT"/>
+      <blockValign value="TOP"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="1,0" stop="1,0"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="2,0" stop="2,0"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="1,3" stop="1,3"/>
+      <lineStyle kind="LINEABOVE" colorName="#000000" start="2,3" stop="2,3"/>
+    </blockTableStyle>
+	<blockTableStyle id="Table1">
+			<blockAlignment value="LEFT" />
+			<blockValign value="TOP" />
+		</blockTableStyle>
+    <blockTableStyle id="Table2">
+
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#e6e6e6" start="2,-1" stop="2,-1"/>
+    </blockTableStyle>
+    
+    <blockTableStyle id="TableOutline">
+    	<blockAlignment value="LEFT"/>
+		<blockValign value="TOP"/>
+    	<blockLeftPadding value="0"/>
+    	<blockRightPadding value="0"/>
+    	<blockTopPadding value="0" />
+    	<blockBottomPadding value="0" />
+    	<lineStyle kind="OUTLINE" colorName="#000000"/>
+    </blockTableStyle>
+    <blockTableStyle id="TableGrid">
+    	<blockAlignment value="LEFT"/>
+		<blockValign value="TOP"/>
+    
+    	<lineStyle kind="GRID" colorName="#000000"/>
+    </blockTableStyle>
+    <blockTableStyle id="TableLineBelow">
+    	<blockAlignment value="LEFT"/>
+		<blockValign value="TOP"/>
+    
+    	<lineStyle kind="LINEBELOW" colorName="#000000"/>
+    </blockTableStyle>
+    
 	</stylesheet>
 	<story>
 		<para style="P1">[[repeatIn(objects,'voucher')]]</para>
@@ -94,7 +160,7 @@
 		<td>
 		<blockTable rowHeights="3.7in"  style="Table1">
 		<tr><td>
-		<spacer length="1.25in"/>
+		<spacer length="1.315in"/>
 		<blockTable colWidths="0.5in,4.0in,1.25in,1.75in" rowHeights="0.5in" style="Table1">
 			<tr>
 				<td>
@@ -107,7 +173,7 @@
                   <para style="9.0B-11R">[[ formatLang(voucher.date , date=True) or '' ]]</para>
                 </td>
 				<td>
-             	  <para style="9.0B-11R">[[ voucher.amount or "**" ]]</para>
+             	  <para style="9.0B-11R">$[[ voucher.amount or "**" ]]</para>
               </td>
 			</tr>
 		</blockTable>
@@ -129,17 +195,17 @@
 	   </tr>
 	   </blockTable>
 	   	
-		<blockTable colWidths="1.75in,1.75in,1.75in,1.75in" style="Table1">
+		<blockTable colWidths="2.5in,1.25in,1.25in,1.25in" style="Table1">
 			<tr>
 				<td> <para style="8.0B-10L">[[ voucher.partner_id.name ]]</para> </td>
 				<td> <para style="8.0B-10L">[[ formatLang(voucher.date , date=True) or '' ]]</para> </td>
-				<td> <para style="8.0B-10R">[[ voucher.amount or "**" ]]</para> </td>
-				<td> <para style="8.0B-10R">[[ voucher.partner_id.ref]]</para> </td>
+				<td> <para style="8.0B-10R">$[[ voucher.amount or "**" ]]</para> </td>
+				<td> <para style="8.0B-10R">[[ voucher.chk_seq]]</para> </td>
 			</tr>
 		</blockTable>
-		<blockTable rowHeights="3.0in"  style="Table1">
+		<blockTable rowHeights="2.75in" colWidths="8.0in" style="TableOutline" >
 		<tr><td>
-		<blockTable colWidths="1.2in,1.2in,1.20in,1.25in,1.65in,1.15in" style="Table1">
+		<blockTable rowHeights="0.25in" colWidths="1.5in,1.2in,1.20in,1.20in,1.65in,1.25in" style="T able1">
 			<tr>
 				<td>
 					<para style="8.0-10L">INVOICE NO.</para>
@@ -161,7 +227,10 @@
 					<para style="8.0-10R">NET AMT</para>
 				</td>
 			</tr>
-
+		</blockTable>
+		<blockTable rowHeights="2.25in" colWidths="8.0in" style="TableOutline">
+		<tr><td>
+		<blockTable colWidths="1.5in,1.2in,1.20in,1.20in,1.65in,1.25in" style="Table1">
 			<tr>
 				<td>								
 					<para style="8.0-10L">[[ repeatIn(get_invoices(voucher.invoice_ids),'invoice')]] [[ invoice['number']  ]]</para>
@@ -185,30 +254,33 @@
 		</blockTable>
 		</td></tr>
 		</blockTable>
-
-		<blockTable colWidths="1.2in,1.2in,1.20in,1.25in,1.65in,1.25in" style="Table1">
+		<blockTable rowHeights="0.25in" colWidths="1.5in,1.2in,1.20in,1.20in,1.65in,1.20in" style="Table1">
 			<tr>
 				<td>
-					<para style="9.0-11L"></para>
+					<para style="8.0-10L">Total</para>
 				</td>
 				<td>
-					<para style="9.0-11L"> </para>
+					<para style="8.0-10L"> </para>
 				</td>
 				<td>
-					<para style="9.0-11R"> [[ formatLang(voucher.amount) ]]</para>
+					<para style="8.0-10R"> [[ formatLang(voucher.amount) ]]</para>
 				</td>
 				<td>
-					<para style="9.0-11R"> </para>
+					<para style="8.0-10R"> </para>
 				</td>
 				<td>
-					<para style="9.0-11L"> </para>
+					<para style="8.0-10R"> </para>
 				</td>
 				<td>
-					<para style="9.0-11R"> [[ formatLang(voucher.amount) ]]</para>
+					<para style="8.0-10R"> [[ formatLang(voucher.amount) ]]</para>
 				</td>
 				
 			</tr>
 		</blockTable>
+		</td></tr>
+		</blockTable>
+
+
 
     </td>
 	</tr>
