@@ -16,4 +16,4 @@ class product_product(models.Model):
     retail_margin = fields.Float("Retail Margin")
     list_margin = fields.Float("List Margin")
     
-    interchange_product = fields.Many2one("product.procut", string="Interchange Product", )
+    interchange_product = fields.Many2one("product.template", string="Interchange Product", )
