@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+     <record id="kanamak_custom_product_view" model="ir.ui.view">
+            <field name="name">kanamak.custom.product.form</field>
+            <field name="model">product.template</field>
+            <field name="priority">16</field>
+            <field name="inherit_id" ref="product.product_template_form_view"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//field[@name='list_price']"  position="replace">
+            	</xpath>
+            	<xpath expr="//field[@name='uom_id']" position="after">
+            		
+					<group string="Sale Prices" colspan="4">
+
+						<group colspan="1" col="3">
+							<label for="list_price" string="Price Type"/>
+							<label for="list_price" string="Price" />
+							<label for="list_price" string="Margin" />
+							
+							<label for="list_price" string="List"/>
+							<field name="list_price" nolabel="1" />
+							<field name="list_margin" nolabel="1" />
+							
+							<label for="fleet_price" string="Fleet"/>
+							<field name="fleet_price" nolabel="1" />
+	    					<field name="fleet_margin" nolabel="1"/>
+	    						
+						 	<label for="wholesale_price" string="Wholesale" />	 					
+							<field name="wholesale_price" nolabel="1"/>
+							<field name="wholesale_margin" nolabel="1"/>
+							
+							<label for="retail_price"  string="Retail"/>
+							<field name="retail_price" nolabel="1" />
+							<field name="retail_margin" nolabel="1"/>
+							
+						</group>
+					
+					</group>
+                </xpath>
+            </field>
+     </record>
+     
+     </data>
+</openerp>
