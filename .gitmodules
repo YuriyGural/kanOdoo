@@ -10,7 +10,7 @@
 
 [submodule "openerp-usa"]  
 	path  = addons-extra/openerp-usa
-	url = git@bitbucket.org:npgteam/openerp-usa.git
+	url = https://github.com/GoContractPro/Odoo-GCP.git
 	branch = 8.0
 
 [submodule "project"]
