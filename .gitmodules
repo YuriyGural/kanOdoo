@@ -62,10 +62,10 @@
 	url = https://github.com/OCA/manufacture.git
 	branch = 8.0
 
-[submodule "odoo-8.0-dev"]
-	path = addons-extra/odoo-8.0-dev
-	url = https://github.com/ursainfosystems/odoo-8.0-dev.git
-	branch = master
+#[submodule "odoo-8.0-dev"]
+#	path = addons-extra/odoo-8.0-dev
+#	url = https://github.com/ursainfosystems/odoo-8.0-dev.git
+#	branch = master
 
 [submodule "odoo-hr_timesheet_timer"]
 	path = addons-extra/odoo-hr_timesheet_timer
