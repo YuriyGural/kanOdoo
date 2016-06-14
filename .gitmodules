@@ -1,83 +1,81 @@
 [submodule "odoo"]
-        path = odoo
-        url = https://github.com/odoo/odoo.git
-        branch = 8.0
+	path = odoo
+	url = https://github.com/odoo/odoo.git
+	branch = 8.0
 
 [submodule "mro"]
-        path = addons-extra/mro
-        url = https://github.com/codup/odoo-eam.git
-        branch = 8.0
+	path = addons-extra/mro	
+	url = https://github.com/codup/odoo-eam.git
+	branch = 8.0
 
-[submodule "openerp-usa"]
-        path  = addons-extra/openerp-usa
-        url = https://github.com/GoContractPro/Odoo-GCP.git
-        branch = 8.0
+[submodule "openerp-usa"]  
+	path  = addons-extra/openerp-usa
+	url = https://github.com/GoContractPro/Odoo-GCP.git
+	branch = 8.0
 
 [submodule "project"]
-        path = addons-extra/project
-        url = https://github.com/OCA/project.git
-        branch = 8.0
+	path = addons-extra/project
+	url = https://github.com/OCA/project.git
+	branch = 8.0
 
 [submodule "web-gantt"]
-        path = addons-extra/web-gantt
-        url = https://github.com/stephane-/odoo_addons.git
-        branch = 8.0
-
+	path = addons-extra/web-gantt
+	url = https://github.com/stephane-/odoo_addons.git
+	branch = 8.0
+	
 [submodule "account-closing"]
-        path = addons-extra/account-closing
-        url = https://github.com/OCA/account-closing.git
-        branch = 8.0
+	path = addons-extra/account-closing
+	url = https://github.com/OCA/account-closing.git
+	branch = 8.0
 
 [submodule "account-financial-tools"]
-        path = addons-extra/account-financial-tools
-        url = https://github.com/OCA/account-financial-tools.git
-        branch = 8.0
+	path = addons-extra/account-financial-tools
+	url = https://github.com/OCA/account-financial-tools.git
+	branch = 8.0
 
 [submodule "c2c-rd-addons"]
-        path = addons-extra/c2c-rd-addons
-        url = https://github.com/camptocamp/c2c-rd-addons.git
+	path = addons-extra/c2c-rd-addons
+	url = https://github.com/camptocamp/c2c-rd-addons.git
 
 [submodule "hr-timesheet"]
-        path = addons-extra/hr-timesheet
-        url = https://github.com/OCA/hr-timesheet.git
-        branch = 8.0
+	path = addons-extra/hr-timesheet
+	url = https://github.com/OCA/hr-timesheet.git
+	branch = 8.0
 
 [submodule "ingadhoc"]
-        path = addons-extra/ingadhoc
-        url = https://github.com/ingadhoc/odoo-addons.git
-        branch = 8.0
+	path = addons-extra/ingadhoc
+	url = https://github.com/ingadhoc/odoo-addons.git
+	branch = 8.0
 
 [submodule "margin-analysis"]
-        path = addons-extra/margin-analysis
-        url = https://github.com/OCA/margin-analysis.git
-        branch = 8.0
+	path = addons-extra/margin-analysis
+	url = https://github.com/OCA/margin-analysis.git
+	branch = 8.0
 
 [submodule "npg-mrp"]
-        path = addons-extra/npg-mrp
-        url = https://github.com/GoContractPro/gcp-mrp.git
-        branch =  master[submodule "odoo-8.0-dev"]
-        path = addons-extra/odoo-8.0-dev
-        branch = master
+	path = addons-extra/npg-mrp
+	url = https://github.com/GoContractPro/Odoo-GCP.git
+	branch =  master
 
 [submodule "oca-manufacture"]
-        path = addons-extra/oca-manufacture
-        url = https://github.com/OCA/manufacture.git
-        branch = 8.0
+	path = addons-extra/oca-manufacture
+	url = https://github.com/OCA/manufacture.git
+	branch = 8.0
 
 [submodule "odoo-hr_timesheet_timer"]
-        path = addons-extra/odoo-hr_timesheet_timer
-        url = https://github.com/vertelab/odoo-hr_timesheet_timer.git
-        branch = 8.0
+	path = addons-extra/odoo-hr_timesheet_timer
+	url = https://github.com/vertelab/odoo-hr_timesheet_timer.git
+	branch = 8.0
 
 [submodule "odoomrp-wip"]
-        path = addons-extra/odoomrp-wip
-        url = https://github.com/odoomrp/odoomrp-wip.git
-        branch = 8.0
+	path = addons-extra/odoomrp-wip
+	url = https://github.com/odoomrp/odoomrp-wip.git
+	branch = 8.0
 
 [submodule "server-tools"]
-        path = addons-extra/server-tools
-        url = https://github.com/OCA/server-tools.git
-        branch = 8.0
+	path = addons-extra/server-tools
+	url = https://github.com/OCA/server-tools.git
+	branch = 8.0
 
 [submodule "addons-vauxoo"]
         path = addons-extra/addons-vauxoo
@@ -85,21 +83,21 @@
         branch = 8.0
 
 [submodule "sale-workflow"]
-        path =  addons-extra/sale-workflow
-        url = https://github.com/OCA/sale-workflow.git
-        branch = 8.0
+	path =  addons-extra/sale-workflow
+	url = https://github.com/OCA/sale-workflow.git
+	branch = 8.0
 
 [submodule "stock-logistics-warehouse"]
-        path = addons-extra/stock-logistics-warehouse
-        url = https://github.com/OCA/stock-logistics-warehouse.git
-        branch = 8.0
+	path = addons-extra/stock-logistics-warehouse
+	url = https://github.com/OCA/stock-logistics-warehouse.git
+	branch = 8.0
 
 [submodule "addons-extra/web"]
-        path = addons-extra/web
-        url = https://github.com/OCA/web.git
+	path = addons-extra/web
+	url = https://github.com/OCA/web.git
         branch = 8.0
 
 [submodule "addons-extra/purchase-workflow"]
-        path = addons-extra/purchase-workflow
-        url = https://github.com/OCA/purchase-workflow.git
-        branch = 8.0
+	path = addons-extra/purchase-workflow
+	url = https://github.com/OCA/purchase-workflow.git
+	branch = 8.0
