@@ -54,7 +54,7 @@
 
 [submodule "npg-mrp"]
 	path = addons-extra/npg-mrp
-	url = https://github.com/GoContractPro/Odoo-GCP.git
+	url = https://github.com/GoContractPro/MRP-GCP.git
 	branch =  master
 
 [submodule "oca-manufacture"]
